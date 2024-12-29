@@ -1,0 +1,70 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2937;
+    color: white;
+    height: 50px;
+}
+
+.logo {
+    margin: 0px 0px 0px 36px;
+}
+
+nav ul {
+   display: flex;
+   gap: 16px;
+   margin: 0px 16px 0px 0px;
+   list-style-type: none;
+}
+
+.flexContainerOne{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    margin:36px;
+}
+
+.flexContainerTwo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: white;
+    margin:36px;
+}
+
+header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    flex-basis: 0;
+}
+
+header img {
+    flex-shrink: 0;
+    margin: 16px;
+}
+
+.infoSection {
+    border: 1px solid blue;
+}
+
+.quoteSection{
+    border: 1px solid red;
+}
+
+.callToAction{
+    border: 1px solid green;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+footer p {
+    color: white;
+}
